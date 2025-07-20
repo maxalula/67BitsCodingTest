@@ -16,8 +16,7 @@ public class CurrencyManager : MonoBehaviour
         }
         else
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            Instance = this;            
         }
     }
 
